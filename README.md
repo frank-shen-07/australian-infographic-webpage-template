@@ -17,12 +17,17 @@ Map data © OpenStreetMap contributors.
 
 Important:
 The OpenStreetMap tile servers (https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png) are intended for personal, educational, or small-scale use only.
-If you plan to deploy this project publicly or expect significant traffic, you must:
 
+Requirements:
+- Clearly display license attribution, normally in the bottom-right corner of the map.
+- Do not actively or passively encourage copyright infringement
+
+If you plan to deploy this project publicly or expect significant traffic, you must:
 Set up your own tile server,
 OR
 Use a third-party map provider (such as Mapbox, MapTiler, etc.) with their terms and API keys.
 
 For details, please review the OpenStreetMap Tile Usage Policy: https://operations.osmfoundation.org/policies/tiles/
+And the OpenStreetMap Foundation Services Terms of Use: https://osmfoundation.org/wiki/Terms_of_Use
 
 
