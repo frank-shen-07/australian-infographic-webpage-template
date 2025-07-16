@@ -1,6 +1,6 @@
 # infographic-webpage-template
 
-This web application template visualises migrant population data and cultural characteristics across different Australian states.
+This local host web application template visualises migrant population data and cultural characteristics across different Australian states.
 Users can interact with a pie chart, map, and legend to explore where migrants come from and learn about each country’s culture.
 
 Features:
