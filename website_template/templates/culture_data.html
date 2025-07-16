@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Migrant Population in Australia</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="container1">
+      <h1>Cultural diversity of Australia</h1>
+      <label for="state-select">Select State:</label>
+      <select id="state-select"></select>
+      <h4>Percentage of Migrant Countries in each state</h4>
+      <div id="content-wrapper">
+        <div id="legend-container">
+          <ul id="legend"></ul>
+        </div>
+        <div id="chart-container">
+          <canvas id="migrantChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div id="map-container">
+      <div id="map"></div>
+      <div id="information-container">
+        <h3>Country</h3>
+        <p>This section contains more information about each country. Click on a country on the pie chart to learn more.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
